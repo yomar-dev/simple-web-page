@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('../images/background-aqua-image.jpg');
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Karla', sans-serif;
+}
+
+hr.line-top {
+    background: #222;
+    border: none;
+    height: 1vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+}
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    height: 13vh;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    border-bottom: 3px solid transparent;
+    font-size: 16px;
+    list-style: none;
+    font-weight: 400;
+    margin-left: 45px;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+}
+
+li:hover {
+    border-bottom: 3px solid white;
+    color: teal;
+    cursor: pointer;
+    padding-bottom: 8px;
+    transition: all 1.2s;
+}
+
+article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+}
+
+img.rounded-logo {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 550px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+img.video {
+    height: 100px;
+    width: 100px;
+}
+
+hr.line-bottom{
+    background: #82d4ae;
+    bottom: 0;
+    border: none;
+    height: 2vh;
+    width: 100%;
+    position: fixed;
+}
